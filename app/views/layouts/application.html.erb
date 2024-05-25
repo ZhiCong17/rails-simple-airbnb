@@ -14,7 +14,7 @@
 
   <body>
     <div class="d-flex justify-content-between p-2 bg-light">
-      <p class="my-auto">Simple Airbnb</p>
+      <%= link_to "Simple Airbnb", flats_path, {:class => "text-decoration-none my-auto"} %>
       <%= link_to 'Add Flat', new_flat_path, {:class => "btn btn-outline-primary"}  %>
     </div>
       <%= yield %>
